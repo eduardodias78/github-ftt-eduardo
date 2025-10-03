@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub - Issues e Project Bord</title>
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <h1>Teste de Repositório</h1>
-    <h2>Vamos testar o GitHub</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis illo laudantium repellendus necessitatibus fugiat molestiae facere nostrum! Laboriosam voluptas eaque doloremque aperiam numquam, recusandae, quos, placeat ut cum non adipisci!</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum fugiat ullam voluptatem natus atque excepturi illum aut voluptate laborum eius est nisi ratione nobis aperiam odit earum, aliquam molestias neque.</p>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="username">Usuário ou Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Entrar</button>
+            <div class="links">
+                <a href="#">Esqueceu a senha?</a>
+                <a href="#">Criar conta</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
